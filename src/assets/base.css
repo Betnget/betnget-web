@@ -20,8 +20,11 @@
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 
+  --cinza: rgb(192, 192, 192);
   --cinza-claro: rgb(231, 231, 231);
-  --cenza-escuro: rgb(92, 92, 92);
+  --cinza-escuro: rgb(92, 92, 92);
+
+  --azul: rgb(62, 162, 255);
 }
 
 /* semantic color variables for this project */

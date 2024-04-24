@@ -30,3 +30,33 @@
 .nav-bar ul li:hover {
   background-color: var(--cinza-claro);
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr {
+  border: 1px solid var(--cinza-claro);
+}
+
+table th {
+  padding: 15px;
+  background-color: var(--azul);
+  color: white;
+  text-align: start;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+table td { 
+  padding: 10px;
+}
+
+table tr:nth-child(2n) {
+  background-color: var(--cinza-claro);
+}
+
+table tr:hover {
+  background-color: var(--cinza);
+}
