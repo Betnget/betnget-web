@@ -22,12 +22,14 @@
   gap: 30px;
 }
 
-.nav-bar ul li {
+.nav-bar ul a {
+  text-decoration: none;
   cursor: pointer;
   color: var(--cinza-escuro);
 }
 
-.nav-bar ul li:hover {
+.nav-bar ul li:hover,
+.nav-bar ul a:hover {
   background-color: var(--cinza-claro);
 }
 
@@ -38,12 +40,11 @@ table {
 
 table tr {
   border: 1px solid var(--cinza-claro);
+  border-radius: 5px;
 }
 
 table th {
   padding: 15px;
-  background-color: var(--azul);
-  color: white;
   text-align: start;
   font-weight: bold;
   font-size: 13pt;
@@ -55,8 +56,4 @@ table td {
 
 table tr:nth-child(2n) {
   background-color: var(--cinza-claro);
-}
-
-table tr:hover {
-  background-color: var(--cinza);
 }

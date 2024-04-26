@@ -1,16 +1,15 @@
 <script setup>
-import axios from "axios";
 import { ref, onMounted } from "vue";
+import promocoesApi from "@/api/promocoes.api"
 
 const ultimasPromocoes = ref([]);
 
-const buscarUltimasPromocoes = async () => {
-  const res = await axios.get("http://localhost:3000/promocoes");
-  ultimasPromocoes.value = res.data;
+const buscarPromocoes = async () => {
+  ultimasPromocoes.value = await promocoesApi.buscarPromocoes();
 };
 
 onMounted(() => {
-  buscarUltimasPromocoes();
+  buscarPromocoes();
 });
 </script>
 <template>
