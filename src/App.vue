@@ -6,8 +6,9 @@ import AppTabelaPromocoes from './components/promocoes/AppTabelaPromocoes.vue';
 <template>
   <AppNavBar></AppNavBar>
   <main>
-    <h2>Últimas Promoções</h2>
-    <AppTabelaPromocoes></AppTabelaPromocoes>
+    <!-- <h2>Últimas Promoções</h2> -->
+    <!-- <AppTabelaPromocoes></AppTabelaPromocoes> -->
+    <RouterView></RouterView>
   </main>
 </template>
 
