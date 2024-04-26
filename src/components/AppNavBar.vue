@@ -6,7 +6,8 @@
       <RouterLink to="/">INÍCIO</RouterLink>
       <RouterLink to="/usuarios">USUÁRIOS</RouterLink>
       <RouterLink to="/promocoes">PROMOÇÕES</RouterLink>
-      <li>CUPONS</li>
+      <RouterLink to="/cupons">CUPONS</RouterLink>
+
       <li>LOGIN</li>
     </ul>
   </nav>
